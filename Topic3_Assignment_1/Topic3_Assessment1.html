@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Prompt</h2>
+
+<button onclick="myFunction()">Try it</button>
+
+<script>
+function myFunction() {
+
+  const num= Math.ceil(Math.random()*10);
+document.write(num+"<br>");
+const gnum= prompt("Guess the number between 1 and 10 inclusive");
+document.writeln(gnum+"<br>");
+  if(gnum==num)
+document.write("Good Work");
+else
+document.write("Not Matched");
+
+}
+</script>
+
+</body>
+</html>
